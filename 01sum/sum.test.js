@@ -1,7 +1,7 @@
 const sum = require('./sum');
 
-it('adds 1 + 2 to equal 3', () => {
-	expect(sum(1, 2)).toBe(3);
+it('add two numbers', () => {
+	expect(sum(6, 8)).toBe(14);
 });
 
 it('object assignment', () => {
